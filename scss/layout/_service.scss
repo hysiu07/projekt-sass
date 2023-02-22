@@ -1,0 +1,61 @@
+.service {
+	width: 100vw;
+	padding: 30px 0;
+	.service-box {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		.img {
+			height: 400px;
+			width: 25%;
+			background-size: cover;
+			background-position: center;
+			cursor: pointer;
+			transition: all 0.3s;
+
+			.shadow {
+				display: none;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(27, 164, 206, 0.6);
+				.shadow-img {
+					width: 50px;
+					height: 50px;
+					margin-bottom: 10px;
+				}
+				.shadow-text {
+					color: $button-text;
+				}
+			}
+		}
+		.img:hover {
+			.shadow {
+				display: flex;
+			}
+		}
+		.first {
+			background-image: url('/.//img/services-bg-1.jpg');
+		}
+		.second {
+			background-image: url(/./img/services-bg-2.jpg);
+		}
+		.third {
+			background-image: url(/./img/services-bg-3.jpg);
+		}
+		.fourth {
+			background-image: url(/./img/services-bg-4.jpg);
+		}
+	}
+}
+
+@media(min-width:576px) and (max-width:1200px) {
+	.service {
+		.img {
+			height: 700px
+            ;
+		}
+	}
+}

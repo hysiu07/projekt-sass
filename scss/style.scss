@@ -1,0 +1,17 @@
+@import 'utils/mixins';
+@import 'utils/variables';
+
+@import 'base/normalize';
+@import 'base/global';
+
+
+
+// ----LAYOUT----
+@import 'layout/nav';
+@import 'layout/header';
+@import 'layout/about';
+@import 'layout/service';
+@import 'layout/procedures';
+
+// ----COMPONENTS----
+@import 'components/components'

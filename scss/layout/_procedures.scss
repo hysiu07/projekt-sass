@@ -1,0 +1,42 @@
+.procedures {
+	text-align: center;
+	padding: 0 8%;
+	.procedures-text {
+		font-size: 1.2rem;
+	}
+	.cards {
+		width: 100%;
+
+		.card {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			width: 100%;
+			padding: 20px 20px 0 20px;
+			margin-top: 20px;
+			border: 1px solid black;
+			.card-img {
+				background-image: url('/img/procedures-bg-1.jpg');
+				background-position: center;
+				background-size: cover;
+				width: 100%;
+				height: 300px;
+			}
+			.card-text {
+				font-size: 1.3rem;
+			}
+			.card-btn {
+				margin: 20px 0;
+                padding: 10px 20px;
+                border-radius: 20px;
+                border: none;
+                font-size: 1.3rem;
+                color: white;
+                background-color: $dark-grey;
+                cursor: pointer;
+			}
+		}
+	}
+}
