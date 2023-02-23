@@ -1,12 +1,10 @@
 .service {
-	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
 	padding: 30px 0;
-	.service-box {
-		display: flex;
-		flex-wrap: wrap;
-		width: 100%;
+	width: 100%;
 		.img {
-			height: 400px;
+			height: 350px;
 			width: 25%;
 			background-size: cover;
 			background-position: center;
@@ -30,13 +28,15 @@
 					color: $button-text;
 				}
 			}
+			
+			
 		}
-		.img:hover {
-			.shadow {
+		.img:hover{
+			.shadow{
 				display: flex;
 			}
 		}
-		.first {
+			.first {
 			background-image: url('/.//img/services-bg-1.jpg');
 		}
 		.second {
@@ -48,14 +48,20 @@
 		.fourth {
 			background-image: url(/./img/services-bg-4.jpg);
 		}
-	}
+	
 }
 
 @media(min-width:576px) and (max-width:1200px) {
-	.service {
-		.img {
-			height: 700px
-            ;
+	.service{
+		.img{
+			width: 50%;
+		}
+	}
+}
+@media(max-width:576px){
+	.service{
+		.img{
+			width: 100%;
 		}
 	}
 }

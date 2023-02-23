@@ -1,12 +1,14 @@
 .nav {
 	position: sticky;
+	z-index: 100;
 	top: 0;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	height: 15vh;
-	width: 100vw;
 	padding: 10px 8%;
+	height: 10vh;
+	width: 100%;
+	background-color: #fff;
 	.nav-box {
 		display: flex;
 		width: 100%;
@@ -18,15 +20,14 @@
 
 	.nav-items {
 		display: none;
-		align-self: flex-end;
 		margin-left: 20px;
 		.nav-item {
-			padding: 15px 30px 40px 15px;
+			padding: 20px;
 			text-transform: uppercase;
 			list-style: none;
 			font-size: 1.5rem;
 			cursor: pointer;
-			a{
+			a {
 				text-decoration: none;
 				color: $purple;
 			}

@@ -1,0 +1,96 @@
+.team {
+	padding: 5%;
+	text-align: center;
+
+	.team-title {
+		margin: 100px 0 50px 0;
+	}
+	.team-text {
+		max-width: 800px;
+		margin: auto;
+	}
+	.team-persons-box {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: 50px;
+	}
+	.person {
+		position: relative;
+		margin: 15px;
+		width: 20%;
+		max-width: 300px;
+		height: 400px;
+		background-position: center;
+		background-size: cover;
+		overflow: hidden;
+	}
+	.first {
+		background-image: url('/img/team-1.jpg');
+	}
+	.second {
+		background-image: url('/img/team-2.jpg');
+	}
+	.third {
+		background-image: url('/img/team-3.jpg');
+	}
+	.person-info {
+		position: absolute;
+		bottom: -150px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin: auto;
+		width: 80%;
+		background-color: white;
+		transition: all 0.3s;
+		.person-name {
+			padding-top: 10px;
+			margin-bottom: 8px;
+		}
+		.social-icon {
+			display: flex;
+			justify-content: center;
+
+			.icon {
+				margin: 20px 10px;
+				border: 1px solid black;
+				border-radius: 50%;
+				width: 30px;
+				height: 30px;
+				i {
+					font-size: 2rem;
+					line-height: 30px;
+					transition: all 0.3s;
+				}
+			}
+		}
+	}
+	.person-info:hover {
+		bottom: -50px;
+		box-shadow: 0 10px 20px #d3cece;
+	}
+	.icon-link:hover {
+		.icon {
+			background-color: $button-bcg;
+			border: none;
+			i {
+				color: $button-text;
+			}
+		}
+	}
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
+	.team {
+		.person {
+			width: 50%;
+		}
+	}
+}
+@media (max-width: 576px) {
+	.team {
+		.person {
+			width: 100%;
+		}
+	}
+}

@@ -1,7 +1,7 @@
-.procedures {
+.blog {
 	text-align: center;
 	padding: 0 8%;
-	.procedures-text {
+	.blog-text {
         max-width: 800px;
         margin: 50px auto;
 	}
@@ -25,17 +25,21 @@
 				width: 100%;
 				height: 300px;
 			}
+            .card-date{
+                margin-top: 20px;
+                font-size: 1rem;
+            }
             .card-text{
                 font-size: 1.5rem;
             }
 			.card-first{
-                background-image: url('/img/procedures-bg-1.jpg');
+                background-image: url('/img/blog-1.jpg');
             }
             .card-second{
-                background-image: url('/img/procedures-bg-2.jpg');
+                background-image: url('/img/blog-2.jpg');
             }
             .card-third{
-                background-image: url('/img/procedures-bg-3.jpg');
+                background-image: url('/img/blog-3.jpg');
             }
 			.card-btn {
 				margin: 40px 20px;

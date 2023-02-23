@@ -1,0 +1,30 @@
+.footer {
+	.footer-img {
+      
+		width: 100px;
+		height: 100px;
+		margin: 20px auto;
+		background-image: url('/img/logo-txt.png');
+        background-size: cover;
+        background-position: center;
+	}
+	.footer-items {
+		display: flex;
+		justify-content: center;
+        margin-bottom: 20px;
+
+		.footer-item {
+			padding: 10px 20px;
+			font-size: 1.5rem;
+			text-transform: uppercase;
+			list-style: none;
+            a{
+                text-decoration: none;
+            }
+		}
+	}
+    .footer-text{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
