@@ -29,16 +29,6 @@
         </div>
         <button class="nav-btn"><i class="fa-solid fa-bars"></i></button>
     </nav>
-    <div class="menu-side">
-        <button class="menu-side-btn"><i class="fa-solid fa-xmark"></i></button>
-        <ul class="nav-items-menu">
-            <li class="nav-item-menu link-style"><a href="#"></a>home</li>
-            <li class="nav-item-menu link-style"><a href="#"></a>about</li>
-            <li class="nav-item-menu link-style"><a href="#"></a>feature</li>
-            <li class="nav-item-menu link-style"><a href="#"></a>service</li>
-            <li class="nav-item-menu link-style"><a href="#"></a>contact</li>
-        </ul>
-    </div>
     <header id="header" class="header">
         <img src="./img/header-bg.png" alt="" class="header-img-bg">
         <img src="./img/header-flowers.png" alt="" class="header-img-side">
@@ -185,21 +175,21 @@
         <div class="form-img"></div>
         <div class="form-box">
             <form action="" method="GET">
-                <input type="text" name="name" id="name" placeholder="NAME">
-                <input type="email" name="email" id="email" placeholder="EMAIL ADDRESS">
-                <select name="service" id="service">
-                    <option value="Services" selected>SERVICES</option>
+                <input type="text" name="name" id="name" placeholder="NAME" class="form-element">
+                <input type="email" name="email" id="email" placeholder="EMAIL ADDRESS" class="form-element">
+                <select name="service" id="service" class="form-element">
+                    <option value="">SERVICES</option>
                     <option value="Thai Massage">Thai Massage</option>
                     <option value="Hot Stones Massage">Hot Stone Massage</option>
                     <option value="Classic Massage">Classic Massage</option>
                 </select>
-                <input type="number" name="phone-number" id="phone-number" placeholder="PHONE NUMER">
-                <input type="date" name="date" id="date" value="">
-                <input type="time" name="time" id="time">
-                <textarea name="notes" id="notes" placeholder=" YOUR NOTES"></textarea>
+                <input type="number" name="phone-number" id="phone-number" placeholder="PHONE NUMER" class="form-element">
+                <input type="date" name="date" id="date" value="" class="form-element">
+                <input type="time" name="time" id="time" class="form-element">
+                <textarea name="notes" id="notes" placeholder="YOUR NOTES" class="form-element"></textarea>
                 <button type="submit" class="btn-form">MAKE AN APOINTMENT</button>
             </form>
-            <p class="form-error">Błąd</p>
+            <p class="form-error"></p>
         </div>
     </section>
     <section id="blog" class="blog">

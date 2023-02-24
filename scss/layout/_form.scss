@@ -13,6 +13,9 @@
 		width: 65%;
 		padding: 5% 8%;
 		background-color: $button-bcg;
+		.form-error{
+			color: red;
+		}
 		form {
 			display: flex;
 			flex-wrap: wrap;
@@ -42,15 +45,28 @@
 				font-size: 1.4rem;
 				color: $button-text;
 				background: none;
+				&::placeholder{
+					color: $button-text;
+				}
+				
 			}
+			.error{
+				border-bottom: 1px solid red;
+			}
+			
+
+			
 			.btn-form {
 				padding: 10px 20px;
-				margin: 20px 0;
+				margin: 10px 0;
 				border-radius: 20px;
 				border: none;
 				font-size: 1.2rem;
 				background-color: #fff;
 			}
+		}
+		.send{
+			color: #fff;
 		}
 	}
 }
