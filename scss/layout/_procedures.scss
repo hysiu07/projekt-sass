@@ -2,41 +2,40 @@
 	text-align: center;
 	padding: 0 8%;
 	.procedures-text {
-        max-width: 800px;
-        margin: 50px auto;
+		max-width: 800px;
+		margin: 50px auto;
 	}
 	.cards {
 		display: flex;
 		justify-content: center;
-        flex-wrap: wrap;
+		flex-wrap: wrap;
 		width: 100%;
 
 		.card {
-            margin: 20px;
+			margin: 20px;
 			max-width: 350px;
 			padding: 20px 20px 0 20px;
 			border: 1px solid rgb(219, 213, 213);
-            transition: all .3s;
-            
+			transition: all 0.3s;
+
 			.card-img {
-				
 				background-position: center;
 				background-size: cover;
 				width: 100%;
 				height: 300px;
 			}
-            .card-text{
-                font-size: 1.5rem;
-            }
-			.card-first{
-                background-image: url('/img/procedures-bg-1.jpg');
-            }
-            .card-second{
-                background-image: url('/img/procedures-bg-2.jpg');
-            }
-            .card-third{
-                background-image: url('/img/procedures-bg-3.jpg');
-            }
+			.card-text {
+				font-size: 1.5rem;
+			}
+			.card-first {
+				background-image: url('../img/procedures-bg-1.jpg');
+			}
+			.card-second {
+				background-image: url('../img/procedures-bg-2.jpg');
+			}
+			.card-third {
+				background-image: url('../img/procedures-bg-3.jpg');
+			}
 			.card-btn {
 				margin: 40px 20px;
 				padding: 15px 30px;
@@ -48,18 +47,18 @@
 				cursor: pointer;
 			}
 		}
-        .card:hover{
-            box-shadow: 0 10px 20px #d3cece;
-            border: none;
-            .card-btn{
-                background-color: $button-bcg;
-            }
-        }
+		.card:hover {
+			box-shadow: 0 10px 20px #d3cece;
+			border: none;
+			.card-btn {
+				background-color: $button-bcg;
+			}
+		}
 	}
 }
 
-@media(max-width:576px){
-    .procedures{
-        padding: 0 3%;
-    }
+@media (max-width: 576px) {
+	.procedures {
+		padding: 0 3%;
+	}
 }

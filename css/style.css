@@ -24,7 +24,8 @@ audio:not([controls]) {
   height: 0;
 }
 
-[hidden], template {
+[hidden],
+template {
   display: none;
 }
 
@@ -182,7 +183,8 @@ textarea {
   vertical-align: baseline;
 }
 
-button, input {
+button,
+input {
   line-height: normal;
 }
 
@@ -204,7 +206,8 @@ input[disabled] {
   cursor: default;
 }
 
-button::-moz-focus-inner, input::-moz-focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
@@ -608,16 +611,16 @@ h4 {
   display: flex;
 }
 .service .first {
-  background-image: url("/.//img/services-bg-1.jpg");
+  background-image: url("../img/services-bg-1.jpg");
 }
 .service .second {
-  background-image: url(/./img/services-bg-2.jpg);
+  background-image: url("../img/services-bg-2.jpg");
 }
 .service .third {
-  background-image: url(/./img/services-bg-3.jpg);
+  background-image: url("../img/services-bg-3.jpg");
 }
 .service .fourth {
-  background-image: url(/./img/services-bg-4.jpg);
+  background-image: url("../img/services-bg-4.jpg");
 }
 
 @media (min-width: 576px) and (max-width: 1200px) {
@@ -661,13 +664,13 @@ h4 {
   font-size: 1.5rem;
 }
 .procedures .cards .card .card-first {
-  background-image: url("/img/procedures-bg-1.jpg");
+  background-image: url("../img/procedures-bg-1.jpg");
 }
 .procedures .cards .card .card-second {
-  background-image: url("/img/procedures-bg-2.jpg");
+  background-image: url("../img/procedures-bg-2.jpg");
 }
 .procedures .cards .card .card-third {
-  background-image: url("/img/procedures-bg-3.jpg");
+  background-image: url("../img/procedures-bg-3.jpg");
 }
 .procedures .cards .card .card-btn {
   margin: 40px 20px;
@@ -720,13 +723,13 @@ h4 {
   overflow: hidden;
 }
 .team .first {
-  background-image: url("/img/team-1.jpg");
+  background-image: url("../img/team-1.jpg");
 }
 .team .second {
-  background-image: url("/img/team-2.jpg");
+  background-image: url("../img/team-2.jpg");
 }
 .team .third {
-  background-image: url("/img/team-3.jpg");
+  background-image: url("../img/team-3.jpg");
 }
 .team .person-info {
   position: absolute;
@@ -788,7 +791,7 @@ h4 {
 .form .form-img {
   width: 35%;
   height: 100%;
-  background-image: url("/img/contact-bg.jpg");
+  background-image: url("../img/contact-bg.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -905,13 +908,13 @@ h4 {
   font-size: 1.5rem;
 }
 .blog .cards .card .card-first {
-  background-image: url("/img/blog-1.jpg");
+  background-image: url("../img/blog-1.jpg");
 }
 .blog .cards .card .card-second {
-  background-image: url("/img/blog-2.jpg");
+  background-image: url("../img/blog-2.jpg");
 }
 .blog .cards .card .card-third {
-  background-image: url("/img/blog-3.jpg");
+  background-image: url("../img/blog-3.jpg");
 }
 .blog .cards .card .card-btn {
   margin: 40px 20px;
@@ -1035,7 +1038,7 @@ h4 {
   width: 100px;
   height: 100px;
   margin: 20px auto;
-  background-image: url("/img/logo-txt.png");
+  background-image: url("../img/logo-txt.png");
   background-size: cover;
   background-position: center;
 }

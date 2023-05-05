@@ -35,8 +35,8 @@
 		padding: 10px 20px;
 		margin-right: 30px;
 		background-color: $button-bcg;
-        color: $button-text;
-        border: none;
+		color: $button-text;
+		border: none;
 	}
 	.header-btn-watch {
 		text-align: center;
@@ -45,11 +45,10 @@
 		border: none;
 		background: none;
 		color: $purple;
-       
+
 		i {
 			font-size: 4rem;
 			margin-right: 10px;
-        
 		}
 	}
 }
@@ -72,14 +71,13 @@
 			padding: 7px 10px;
 			margin-right: 5px;
 			font-size: 1.2rem;
-           
 		}
 		.header-btn-watch {
 			padding: 5px 10px;
 			font-size: 1.2rem;
-            i{
-                font-size: 2rem;
-            }
+			i {
+				font-size: 2rem;
+			}
 		}
 	}
 }

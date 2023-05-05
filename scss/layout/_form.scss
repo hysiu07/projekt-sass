@@ -5,7 +5,7 @@
 	.form-img {
 		width: 35%;
 		height: 100%;
-		background-image: url('/img/contact-bg.jpg');
+		background-image: url('../img/contact-bg.jpg');
 		background-position: center;
 		background-size: cover;
 	}
@@ -13,7 +13,7 @@
 		width: 65%;
 		padding: 5% 8%;
 		background-color: $button-bcg;
-		.form-error{
+		.form-error {
 			color: red;
 		}
 		form {
@@ -32,7 +32,7 @@
 				font-size: 1.4rem;
 				color: $button-text;
 				background: none;
-				&::placeholder{
+				&::placeholder {
 					color: $button-text;
 				}
 			}
@@ -45,17 +45,14 @@
 				font-size: 1.4rem;
 				color: $button-text;
 				background: none;
-				&::placeholder{
+				&::placeholder {
 					color: $button-text;
 				}
-				
 			}
-			.error{
+			.error {
 				border-bottom: 1px solid red;
 			}
-			
 
-			
 			.btn-form {
 				padding: 10px 20px;
 				margin: 10px 0;
@@ -65,7 +62,7 @@
 				background-color: #fff;
 			}
 		}
-		.send{
+		.send {
 			color: #fff;
 		}
 	}

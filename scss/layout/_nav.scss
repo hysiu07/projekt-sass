@@ -19,7 +19,6 @@
 	}
 
 	.nav-items {
-		
 		margin-left: 20px;
 		.nav-item {
 			padding: 20px;
@@ -32,9 +31,8 @@
 				color: $purple;
 			}
 		}
-		
 	}
-	.show{
+	.show {
 		display: none;
 	}
 
@@ -64,7 +62,6 @@
 }
 @media (max-width: 992px) {
 	.nav {
-		
 		.nav-items {
 			position: absolute;
 			right: 0;
@@ -76,26 +73,17 @@
 			height: 100vh;
 			width: 50vw;
 			background-color: $button-bcg;
-			
-			
-			.nav-item{
+
+			.nav-item {
 				margin: 20px 0;
 				font-size: 2rem;
-				a{
+				a {
 					color: #fff;
 				}
 			}
-			
 		}
-		.show{
+		.show {
 			display: flex;
-		}
-		.nav-btn{
-
-			i{
-				
-			}
-			
 		}
 	}
 }
